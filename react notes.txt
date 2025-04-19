@@ -1,0 +1,7 @@
+New project installing packages
+
+gsap @gsap/react 
+three 
+@react-three/fiber 
+@react-three/drei
+@react-three/postprocessing
