@@ -1,10 +1,55 @@
+import { useRef } from "react"
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
+
+gsap.registerPlugin(ScrollTrigger);
+
 const ProjectSection = () => {
+
+    const sectionRef = useRef(null);
+    const bird = useRef(null);
+    const lake = useRef(null);
+    const rockautosalvage = useRef(null);
+    
+    useGSAP(() => {
+        
+        // Entrance animation for project section
+        gsap.fromTo(
+            sectionRef.current,
+            { opacity: 0 },
+            { opacity: 1, duration: 1.5 }
+        );
+        
+        // Animation for projects
+        const projects = [bird.current, lake.current, rockautosalvage.current];
+        projects.forEach((project, index) => {
+            gsap.fromTo(
+                project,
+                {
+                  y: 50,
+                  opacity: 0,
+                },
+                {
+                  y: 0,
+                  opacity: 1,
+                  duration: 1,
+                  delay: 0.3 * (index + 1),
+                  scrollTrigger: {
+                    trigger: project,
+                    start: "top bottom-=100",
+                  },
+                }
+              );
+        });
+    }, [])
+
     return (
-        <div id="work" className="app-showcase">
+        <div id="work" ref={sectionRef} className="app-showcase">
             <div className="w-full">
                 <div className="showcaselayout">
                     {/* left */}
-                    <div className="first-project-wrapper">
+                    <div className="first-project-wrapper" ref={bird}>
                         <div className="image-wrapper ">
                             <img
                                 src="/src/assets/images/project1.png"
@@ -19,7 +64,7 @@ const ProjectSection = () => {
                     </div>
                     {/* Right */}
                     <div className="project-list-wrapper overflow-hidden">
-                        <div className="project">
+                        <div className="project" ref={lake}>
                             <div className="image-wrapper bg-[#ffefdb] ">
                                 <img
                                     src="src/assets/images/project2.png"
@@ -31,7 +76,7 @@ const ProjectSection = () => {
 
                             </div>
                         </div>
-                        <div className="project">
+                        <div className="project" ref={rockautosalvage}>
                             <div className="image-wrapper bg-[#ffe7eb]">
                                 <img
                                     src="src/assets/images/project3.png"
