@@ -22,7 +22,7 @@ const ModelExperience = () => {
             />
             <MyLights />
             <Snow
-                count={350}
+                count={100}
             />
             <group
                 scale={isMobile ? 0.7 : 1}

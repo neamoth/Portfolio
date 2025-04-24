@@ -1,7 +1,7 @@
 import { useRef, useMemo } from 'react'
 import { useFrame } from '@react-three/fiber'
 
-const Snow = ({ count = 200 }) => {
+const Snow = ({ count = 100 }) => {
 
     const mesh = useRef();
 
