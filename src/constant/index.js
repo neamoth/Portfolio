@@ -29,8 +29,28 @@ const counterData = [
     { value: 5, suffix: "☆", label: "Rating" },
 ];
 
+const navLinks = [
+    {
+        name: "Work",
+        link: "#work",
+    },
+    {
+        name: "Experience",
+        link: "#experience",
+    },
+    {
+        name: "Skills",
+        link: "#skills",
+    },
+    {
+        name: "Testimonials",
+        link: "#testimonials",
+    },
+];
+
 export {
     words,
     counterWords,
     counterData,
+    navLinks,
 };
