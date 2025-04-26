@@ -4,14 +4,14 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  build: {
-    chunkSizeWarningLimit: 500000, // sets the warning limit to 1000kb
-  },
+  base: './',
   plugins: [
     tailwindcss(),
     react()
   ],
-  base: "./",
+  build: {
+    chunkSizeWarningLimit: 500000, // sets the warning limit to 1000kb
+  },
   server: {
     host: true,
   },
