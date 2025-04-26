@@ -11,7 +11,7 @@ const words = [
 const counterWords = [
     { id: 1, text: "Fiverr" },
     { id: 2, text: "Upwork" },
-    { id: 3, text: "Softvence" },
+    { id: 3, text: "RFXShop" },
     { id: 4, text: "SuperFreshUSA" },
     { id: 5, text: "EdupathKW" },
     { id: 6, text: "GSBD" },
