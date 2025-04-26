@@ -10,14 +10,14 @@ import { BlendFunction } from "postprocessing";
 import * as THREE from 'three'
 
 export function Room(props) {
-  const { nodes, materials } = useGLTF("src/assets/models/optimized-room.glb")
+  const { nodes, materials } = useGLTF("/models/optimized-room.glb")
 
   const screensRef = useRef()
 
-  const matcapTexture = useTexture('src/assets/images/textures/mat1.png')
-  const tableTexture = useTexture('src/assets/images/textures/table.png')
-  const windowTexture = useTexture('src/assets/images/textures/window.png')
-  const mousePadTexture = useTexture('src/assets/images/textures/mousepad.png')
+  const matcapTexture = useTexture('/images/textures/mat1.png')
+  const tableTexture = useTexture('/images/textures/table.png')
+  const windowTexture = useTexture('/images/textures/window.png')
+  const mousePadTexture = useTexture('/images/textures/mousepad.png')
 
 
   const bodyMaterial = new THREE.MeshStandardMaterial({
@@ -108,4 +108,4 @@ export function Room(props) {
   )
 }
 
-useGLTF.preload("src/assets/models/optimized-room.glb")
+useGLTF.preload("/models/optimized-room.glb")

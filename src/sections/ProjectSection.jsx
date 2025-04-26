@@ -52,7 +52,7 @@ const ProjectSection = () => {
                     <div className="first-project-wrapper" ref={bird}>
                         <div className="image-wrapper ">
                             <img
-                                src="/src/assets/images/project1.png"
+                                src="/images/project1.png"
                                 alt="Bird Psychology"
                                 className=""
                             />
@@ -67,7 +67,7 @@ const ProjectSection = () => {
                         <div className="project" ref={lake}>
                             <div className="image-wrapper bg-[#ffefdb] ">
                                 <img
-                                    src="src/assets/images/project2.png"
+                                    src="/images/project2.png"
                                     alt="Lake Cleaning"
                                 />
                                 <h2>
@@ -79,7 +79,7 @@ const ProjectSection = () => {
                         <div className="project" ref={rockautosalvage}>
                             <div className="image-wrapper bg-[#ffe7eb]">
                                 <img
-                                    src="src/assets/images/project3.png"
+                                    src="/images/project3.png"
                                     alt="Rockautosalvage"
                                 />
                                 <h2>
