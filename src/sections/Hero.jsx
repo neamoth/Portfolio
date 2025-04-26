@@ -49,7 +49,7 @@ const Hero = () => {
                             className="md:w-80 md:h-16 w-60 h-12"
                             id="button"
                             text="DOWNLOAD CV"
-                            href="https://drive.google.com/file/d/1ypQsKx8kptbs7GDHqUdvcU7JPvGi8HzO/view?usp=drive_link"
+                            href="https://drive.google.com/file/d/1Fw5-fawELz2vVpQRLUEqnMwAtUHMh0TQ/view?usp=drive_link"
                             newTab
 
                         />
