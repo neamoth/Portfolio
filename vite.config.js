@@ -11,6 +11,7 @@ export default defineConfig({
     tailwindcss(),
     react()
   ],
+  base: "./",
   server: {
     host: true,
   },
