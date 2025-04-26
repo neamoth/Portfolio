@@ -91,10 +91,29 @@ const brandsList = [
     },
 ];
 
+const qualities = [
+    {
+        imgPath: "src/assets/images/qualityIcons/quality.png",
+        title: "Quality Works",
+        desc: "Determine to deliver high-quality and Optimized performance work. Include media and code optimization.",
+    },
+    {
+        imgPath: "src/assets/images/qualityIcons/communication.png",
+        title: "Skilled Communication",
+        desc: "Skilled in client communication with clear, confident, and professional interaction.",
+    },
+    {
+        imgPath: "src/assets/images/qualityIcons/time.png",
+        title: "On-time Delivery",
+        desc: "Timely results through planning, prioritization, and focused execution.",
+    },
+];
+
 export {
     words,
     counterWords,
     counterData,
     navLinks,
     brandsList,
+    qualities,
 };
