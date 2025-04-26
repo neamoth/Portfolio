@@ -48,9 +48,53 @@ const navLinks = [
     },
 ];
 
+const brandsList = [
+    {
+        imgPath: "src/assets/images/logos/b1.png",
+        alt: "HodlBlockChain",
+    },
+    {
+        imgPath: "src/assets/images/logos/b2.png",
+        alt: "edupath",
+    },
+    {
+        imgPath: "src/assets/images/logos/b3.png",
+        alt: "CorePhotoEdit",
+    },
+    {
+        imgPath: "src/assets/images/logos/b4.png",
+        alt: "RGCanvas",
+    },
+    {
+        imgPath: "src/assets/images/logos/b5.png",
+        alt: "SuperFreshUSA",
+    },
+    {
+        imgPath: "src/assets/images/logos/b6.png",
+        alt: "Capital City Food Bank",
+    },
+    {
+        imgPath: "src/assets/images/logos/b7.png",
+        alt: "Y Mortage",
+    },
+    {
+        imgPath: "src/assets/images/logos/b8.png",
+        alt: "Lake Cleaning Service",
+    },
+    {
+        imgPath: "src/assets/images/logos/b9.png",
+        alt: "Kanisha Bakes",
+    },
+    {
+        imgPath: "src/assets/images/logos/b10.png",
+        alt: "Bird Psychology",
+    },
+];
+
 export {
     words,
     counterWords,
     counterData,
     navLinks,
+    brandsList,
 };

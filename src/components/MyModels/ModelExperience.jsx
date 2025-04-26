@@ -16,7 +16,7 @@ const ModelExperience = () => {
                 enablePan={false}
                 enableZoom={!isTablet}
                 maxDistance={25}
-                minDistance={15}
+                minDistance={5}
                 minPolarAngle={Math.PI / 5}
                 maxPolarAngle={Math.PI / 2}
             />
