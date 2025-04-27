@@ -15,3 +15,17 @@ used three js
 used gspa
 used gltfjsx
 used react countup for counter
+
+
+assets ref
+
+optimized image
+imageoptimizer for resizing
+tinypng for webp and png conversion
+
+icons:
+flaticons for social and others icons
+
+3D models:
+sketchfab for download computer table and other
+models
