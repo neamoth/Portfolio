@@ -15,6 +15,7 @@ used three js
 used gspa
 used gltfjsx
 used react countup for counter
+use hooks: useEffects , useState, useRef
 
 
 assets ref
