@@ -11,10 +11,10 @@ const Counter = () => {
                 />
             </div>
             <div className="mx-auto grid-4-cols">
-                {counterData.map((item) => (
-                    <div className="bg-zinc-900 rounded-lg p-10 flex flex-col justify-center">
+                {counterData.map((item, index) => (
+                    <div key={index} className="bg-zinc-900 rounded-lg p-10 flex flex-col justify-center">
                         <div
-                            key={counterData.label}
+                            key={index}
                             className="counter-number text-white text-5xl font-bold mb-2"
                         >
                             <CountUp
