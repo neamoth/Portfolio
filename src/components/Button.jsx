@@ -10,7 +10,7 @@ const Button = ({ href, text, className, newTab = false }) => {
                 <div className="bg-circle" />
                 <p className="text">{text}</p>
                 <div className="arrow-wrapper">
-                    <img src="src\assets\images\arrow-down.svg" alt="button arrow down" />
+                    <img src="/images/arrow-down.svg" alt="button arrow down" />
                 </div>
             </div>
         </a>
