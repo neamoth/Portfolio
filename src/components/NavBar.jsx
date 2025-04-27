@@ -1,5 +1,6 @@
 import { navLinks } from "../constant"
 import { useEffect, useState } from "react"
+import Logo from "./Logo";
 const NavBar = () => {
     const [scrolled, setScrolled] = useState(false);
 
@@ -18,7 +19,7 @@ const NavBar = () => {
         <header className={`navbar ${scrolled ? "scrolled" : "not-scrolled"}`}>
             <div className="inner">
                 <a href="#hero" className="logo">
-                    Neamoth
+                    < Logo />
                 </a>
                 <nav className="desktop">
                     <ul>
