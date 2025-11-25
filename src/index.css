@@ -294,7 +294,15 @@ body {
       }
     }
   }
-
+  .branding {
+    @apply flex flex-row items-center gap-0;
+    .img-footer {
+      @apply w-[35px] h-[35px];
+    }
+    .rotate {
+      @apply transform hover:rotate-25 transition duration-300;
+    }
+  }
   .footer {
     @apply my-10 md:mt-20 mt-10 text-white-50 px-5 md:px-20 xl:px-20 flex items-center justify-center;
 
@@ -307,10 +315,10 @@ body {
     }
 
     .socials {
-      @apply flex items-center justify-center gap-5;
+      @apply flex items-start justify-start gap-5;
 
       .icon {
-        @apply border border-black-50 bg-black-100 flex justify-center items-center rounded-xl size-10 md:size-12 cursor-pointer transition-all duration-500 hover:bg-black-50;
+        @apply border border-black-50 bg-black-100 flex justify-center items-center rounded-xl size-10 md:size-12 cursor-pointer transform hover:rotate-25 transition duration-300;
       }
 
       img {

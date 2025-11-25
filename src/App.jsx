@@ -4,6 +4,7 @@ import ProjectSection from './sections/ProjectSection'
 import NavBar from './components/NavBar'
 import Brands from './sections/Brands'
 import MyQuality from './sections/MyQuality'
+import Footer from './sections/Footer'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       < ProjectSection />
       < Brands />
       < MyQuality />
+      < Footer />
     </>
   )
 }

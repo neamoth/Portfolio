@@ -106,6 +106,57 @@ const qualities = [
     },
 ];
 
+const socialImgs = [
+    {
+        platform: "LinkedIn",
+        imgPath: "/images/socialIcons/linkedin.svg",
+        url: "https://www.linkedin.com/in/neamoth/",
+    },
+    {
+        platform: "Github",
+        imgPath: "/images/socialIcons/github.svg",
+        url: "https://github.com/neamoth",
+    },
+    {
+        platform: "Facebook",
+        imgPath: "/images/socialIcons/facebook.svg",
+        url: "http://facebook.com/neamoth",
+    },
+    {
+        platform: "Instagram",
+        imgPath: "/images/socialIcons/insta.svg",
+        url: "https://www.instagram.com/ig_neamoth/",
+    },
+];
+
+const projectLinks = [
+    {
+        id: 1,
+        title: "Movie App(coming soon)",
+        url: "#",
+    },
+    {
+        id: 2,
+        title: "SoftNSM Business Website(coming soon)",
+        url: "#",
+    },
+    {
+        id: 3,
+        title: "AI Fitness Trainer(coming soon)",
+        url: "",
+    },
+    {
+        id: 4,
+        title: "Bird Psychology",
+        url: "https://birdspsychology.com/",
+    },
+    {
+        id: 5,
+        title: "HodlBlockChain Cryto Service",
+        url: "https://hodlblockchain.io/",
+    },
+];
+
 export {
     words,
     counterWords,
@@ -113,4 +164,6 @@ export {
     navLinks,
     brandsList,
     qualities,
+    socialImgs,
+    projectLinks,
 };
