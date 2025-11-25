@@ -15,7 +15,6 @@ export function Room(props) {
   const screensRef = useRef()
 
   const matcapTexture = useTexture('/images/textures/mat1.png')
-  const tableTexture = useTexture('/images/textures/table.png')
   const windowTexture = useTexture('/images/textures/window.png')
   const mousePadTexture = useTexture('/images/textures/mousepad.png')
 
@@ -23,40 +22,39 @@ export function Room(props) {
   const bodyMaterial = new THREE.MeshStandardMaterial({
     map: matcapTexture
   })
-  const tableMaterial = new THREE.MeshStandardMaterial({
-    map: tableTexture
-  })
   const windowMaterial = new THREE.MeshStandardMaterial({
     map: windowTexture
   })
   const mousePadMaterial = new THREE.MeshStandardMaterial({
     map: mousePadTexture
   })
-
+  const tableMaterial = new THREE.MeshStandardMaterial({
+    color: 0xC49A6C
+  })
   const curtainMaterial = new THREE.MeshStandardMaterial({
-    color: "#d90426"
+    color: 0xD90426
   })
 
   const radiatorMaterial = new THREE.MeshPhongMaterial({
-    color: "#fff",
+    color: 0xffffff,
   });
 
   const compMaterial = new THREE.MeshStandardMaterial({
-    color: "#343a40",
+    color: 0x343a40,
   });
   const triangleMaterial = new THREE.MeshStandardMaterial({
-    color: "#fff",
+    color: 0xffffff,
   });
 
   const pillowMaterial = new THREE.MeshPhongMaterial({
-    color: "#FAF9F6",
+    color: 0xFAF9F6,
   });
   const handleMaterial = new THREE.MeshPhongMaterial({
-    color: "#D4AF37	",
+    color: 0xD4AF37,
   });
 
   const chairMaterial = new THREE.MeshPhongMaterial({
-    color: "#000",
+    color: 0x000000,
   });
 
 
