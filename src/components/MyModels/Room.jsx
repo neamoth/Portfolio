@@ -14,9 +14,9 @@ export function Room(props) {
 
   const screensRef = useRef()
 
-  const matcapTexture = useTexture('/images/textures/mat1.png')
-  const windowTexture = useTexture('/images/textures/window.png')
-  const mousePadTexture = useTexture('/images/textures/mousepad.png')
+  const matcapTexture = useTexture('/images/textures/mat1.webp')
+  const windowTexture = useTexture('/images/textures/window.webp')
+  const mousePadTexture = useTexture('/images/textures/mousepad.webp')
 
 
   const bodyMaterial = new THREE.MeshStandardMaterial({
